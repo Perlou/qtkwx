@@ -1,0 +1,21 @@
+{
+  "name": "qtkwx",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Perlou"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Perlou/qtkwx",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "Swiper": "swiper#^3.3.1"
+  }
+}

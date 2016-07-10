@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>黔通卡微信公众号</title>
+<meta name="viewport" content="width=device-width,user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="format-detection" content="telephone=no" />
+<link rel="stylesheet" href="./styles/normalize.css" />
+<link rel="stylesheet" href="./styles/main.css" />
+<link rel="stylesheet" href="./libs/Swiper/dist/css/swiper.min.css" />
+<script src="./js/rem.js"></script>
+</head>
+<body>
+
+	<section class="my_main">
+
+		<ul class="my_info">
+			<li>
+				<span>乐享黔程账户</span>
+				<span>13888888888</span>
+			</li>
+			<li>
+				<span>真实姓名</span>
+				<span>张三</span>
+			</li>
+			<li>
+				<span>手机号码</span>
+				<span>13888888888</span>
+			</li>
+			<li>
+				<span>证件类型</span>
+				<span>身份证</span>
+			</li>
+			<li>
+				<span>证件号码</span>
+				<span>444444444444444444</span>
+			</li>
+			<li class="balance">
+				<span>账户余额</span>
+				<span><b>100</b>元</span>
+			</li>
+		</ul>
+
+		<div class="card_info">
+			<span>您目前绑定了<b>3</b>张黔通卡</span>
+			<a href="javascript:;" class="btn blue_btn">绑定黔通卡</a>
+		</div>
+
+	    <!-- Swiper -->
+	    <div class="card_list swiper-container">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide"><span class="card_num">12313131313131</span></div>
+	            <div class="swiper-slide"><span class="card_num">12313131313131</span></div>
+	            <div class="swiper-slide"><span class="card_num">12313131313131</span></div>
+	        </div>
+	        <div class="swiper-pagination"></div>
+	    </div>
+
+	    <a class="quick btn blue_btn" href="javascript:;">退出登录</a>
+
+	</section>
+
+	<script src="./libs/Swiper/dist/js/swiper.min.js"></script>
+	<script>
+	    var swiper = new Swiper('.swiper-container', {
+	        pagination: '.swiper-pagination',
+	        paginationClickable: true,
+	        spaceBetween: 30,
+	    });		
+	</script>
+</body>
+
+</html>
