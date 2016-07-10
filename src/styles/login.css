@@ -1,0 +1,10 @@
+/** login **/
+.login_bg {
+	width: 100%;
+	height: 10rem;
+	background: url('../images/loginBg.png') no-repeat;
+	background-size: cover;
+}
+.login_text{
+
+}
