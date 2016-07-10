@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
+body{
+	background-color: #f8f8f6;
+}
+.input_wrap{
+	border: 1px solid #bfbfbf;
+	border-radius: 8px;
+	display: flex;
+	display: -webkit-flex;
+	height: 50px;
+	font-size: 18px;
+	overflow: hidden;
+	background: #fff;
+}
+.input_wrap .icon {
+	display: block;
+	width: 14%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.input_wrap input {
+	background: none;
+	border: none;
+	width: 80%;
+	padding-left: 6%;
+}
+
+/** icon **/
+.icon_phone {
+	background-image: url('../images/icons/phone.png');
+}
+.icon_email {
+	background-image: url('../images/icons/email.png');
+}
+.icon_lock {
+	background-image: url('../images/icons/lock.png');
+}
+/** btn **/
+.btn {
+	display: block;
+	text-align: center;
+	border-radius: 12px; 
+	text-decoration: none;
+}
+.blue_btn{
+	background-color: #1070bc;
+	color: #fff;
+	font-size: 20px;
+}
+
+/** 注册 **/
+.register_main .input_wrap {
+	width: 90%;
+	margin: 14px 0 0 5%;
+}
+.register_main > .btn {
+	width: 90%;
+	height: 50px;
+	line-height: 50px;
+	margin: 24px 0 0 5%;	
+}
+.register_main .input_wrap .icon {
+	background-size: 70%;
+}
+.register_main .codes input {
+	width: 45%;
+}
+.register_main .codes .btn {
+	width: 35%;
+	height: 100%;
+	border-radius: 0px;
+	font-size: 16px;
+	line-height: 50px;
+}
+.register_main .tips {
+	text-align: center;
+	font-size: 0.5rem; 
+	color: #afafaf;
+	margin-top: 14px;
+}
+.register_main .tips > a {
+	color: #1070bc;
+}
+
+/** footer **/
+footer.footer {
+	position: fixed;
+	background: #fff;
+	z-index: 100;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	height: 40px;
+	line-height: 40px; 
+	text-align: center;
+	font-size: 16px;
+	color: #666666;
+}

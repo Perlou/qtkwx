@@ -20,6 +20,7 @@
 	width: 100%;
 	display: flex;
 	display: -webkit-flex;
+	background-color: #f8f8f6;
 }
 .login_input_wrap .icon {
 	display: block;
